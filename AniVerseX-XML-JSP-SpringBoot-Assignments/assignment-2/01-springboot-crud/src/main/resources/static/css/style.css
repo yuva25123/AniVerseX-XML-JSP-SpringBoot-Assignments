@@ -1,0 +1,67 @@
+:root {
+    --primary: #fb923c;
+    --bg: #0f172a;
+    --card: #1e293b;
+    --text: #f8fafc;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: var(--text);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #fbbf24;
+}
+
+.card {
+    background: var(--card);
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: var(--primary);
+    color: #111827;
+    border-radius: 6px;
+    border: none;
+    padding: 9px 14px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+}
+
+th, td {
+    border: 1px solid #334155;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #334155;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #64748b;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
