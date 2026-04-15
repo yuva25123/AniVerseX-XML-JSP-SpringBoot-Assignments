@@ -1,0 +1,4 @@
+# Ignore generated files
+/target/
+/.idea/
+*.iml
