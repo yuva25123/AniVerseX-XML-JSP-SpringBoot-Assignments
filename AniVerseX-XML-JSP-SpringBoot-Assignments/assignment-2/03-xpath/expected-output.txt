@@ -1,0 +1,48 @@
+Expected Output for Each Query
+==============================
+
+Q1 Output:
+Naruto
+Attack on Titan
+Demon Slayer
+One Punch Man
+Death Note
+
+Q2 Output:
+Naruto
+Demon Slayer
+
+Q3 Output:
+Attack on Titan
+Death Note
+
+Q4 Output:
+Naruto
+Attack on Titan
+Demon Slayer
+Death Note
+
+Q5 Output:
+One Punch Man
+Death Note
+
+Q6 Output:
+Naruto
+
+Q7 Output:
+Death Note
+
+Q8 Output (anime nodes with episodes < 60):
+Demon Slayer (A003)
+One Punch Man (A004)
+Death Note (A005)
+
+Q9 Output:
+5
+
+Q10 Output (title and rating sequence):
+Naruto, 8.3
+Attack on Titan, 9.1
+Demon Slayer, 8.7
+One Punch Man, 8.6
+Death Note, 9.0

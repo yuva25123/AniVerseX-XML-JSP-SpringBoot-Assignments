@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animeLibrary>
+    <!-- Anime records used for XPath practice -->
+    <anime id="A001">
+        <title>Naruto</title>
+        <genre>Action</genre>
+        <studio>Pierrot</studio>
+        <episodes>220</episodes>
+        <rating>8.3</rating>
+        <recommended>true</recommended>
+    </anime>
+
+    <anime id="A002">
+        <title>Attack on Titan</title>
+        <genre>Dark Fantasy</genre>
+        <studio>MAPPA</studio>
+        <episodes>89</episodes>
+        <rating>9.1</rating>
+        <recommended>true</recommended>
+    </anime>
+
+    <anime id="A003">
+        <title>Demon Slayer</title>
+        <genre>Action</genre>
+        <studio>ufotable</studio>
+        <episodes>55</episodes>
+        <rating>8.7</rating>
+        <recommended>true</recommended>
+    </anime>
+
+    <anime id="A004">
+        <title>One Punch Man</title>
+        <genre>Comedy</genre>
+        <studio>Madhouse</studio>
+        <episodes>24</episodes>
+        <rating>8.6</rating>
+        <recommended>false</recommended>
+    </anime>
+
+    <anime id="A005">
+        <title>Death Note</title>
+        <genre>Thriller</genre>
+        <studio>Madhouse</studio>
+        <episodes>37</episodes>
+        <rating>9.0</rating>
+        <recommended>true</recommended>
+    </anime>
+</animeLibrary>
