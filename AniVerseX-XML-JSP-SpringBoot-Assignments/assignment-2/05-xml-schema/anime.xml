@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animeCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="anime.xsd">
+    <anime>
+        <animeId>A001</animeId>
+        <title>Naruto</title>
+        <genre>Action</genre>
+        <episodes>220</episodes>
+        <rating>8.3</rating>
+        <shortReview>A classic ninja journey with strong character growth.</shortReview>
+        <recommendationType>Beginner Friendly</recommendationType>
+    </anime>
+
+    <anime>
+        <animeId>A002</animeId>
+        <title>One Piece</title>
+        <genre>Adventure</genre>
+        <episodes>1100</episodes>
+        <rating>9.0</rating>
+        <shortReview>Amazing world-building and emotional storytelling.</shortReview>
+        <recommendationType>Long Series Lovers</recommendationType>
+    </anime>
+
+    <anime>
+        <animeId>A003</animeId>
+        <title>Attack on Titan</title>
+        <genre>Action</genre>
+        <episodes>89</episodes>
+        <rating>9.1</rating>
+        <shortReview>Intense plot twists with high suspense.</shortReview>
+        <recommendationType>Top Rated</recommendationType>
+    </anime>
+
+    <anime>
+        <animeId>A004</animeId>
+        <title>Demon Slayer</title>
+        <genre>Action</genre>
+        <episodes>55</episodes>
+        <rating>8.7</rating>
+        <shortReview>Beautiful animation and emotional story moments.</shortReview>
+        <recommendationType>Visual Experience</recommendationType>
+    </anime>
+
+    <anime>
+        <animeId>A005</animeId>
+        <title>Death Note</title>
+        <genre>Thriller</genre>
+        <episodes>37</episodes>
+        <rating>9.0</rating>
+        <shortReview>Brilliant psychological battle between genius minds.</shortReview>
+        <recommendationType>Story Rich</recommendationType>
+    </anime>
+</animeCollection>

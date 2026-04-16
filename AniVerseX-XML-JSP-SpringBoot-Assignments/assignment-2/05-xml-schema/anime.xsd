@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="animeCollection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="anime" maxOccurs="unbounded" minOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="animeId" type="xs:string"/>
+                            <xs:element name="title" type="xs:string"/>
+                            <xs:element name="genre" type="xs:string"/>
+                            <xs:element name="episodes" type="xs:positiveInteger"/>
+                            <xs:element name="rating">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:decimal">
+                                        <xs:minInclusive value="0"/>
+                                        <xs:maxInclusive value="10"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="shortReview" type="xs:string"/>
+                            <xs:element name="recommendationType" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
