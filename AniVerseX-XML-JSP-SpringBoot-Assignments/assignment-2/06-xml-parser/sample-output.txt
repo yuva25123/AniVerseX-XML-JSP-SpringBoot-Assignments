@@ -1,0 +1,48 @@
+AniVerseX - XML DOM Parser Output
+Total Anime Records: 5
+---------------------------------------
+Record 1
+animeId            : A001
+title              : Naruto
+genre              : Action
+episodes           : 220
+rating             : 8.3
+shortReview        : Classic ninja journey with strong character growth.
+recommendationType : Beginner Friendly
+---------------------------------------
+Record 2
+animeId            : A002
+title              : One Piece
+genre              : Adventure
+episodes           : 1100
+rating             : 9.0
+shortReview        : Amazing world-building and emotional storytelling.
+recommendationType : Long Series Lovers
+---------------------------------------
+Record 3
+animeId            : A003
+title              : Attack on Titan
+genre              : Action
+episodes           : 89
+rating             : 9.1
+shortReview        : Intense plot twists with high suspense.
+recommendationType : Top Rated
+---------------------------------------
+Record 4
+animeId            : A004
+title              : Demon Slayer
+genre              : Action
+episodes           : 55
+rating             : 8.7
+shortReview        : Beautiful animation and emotional story moments.
+recommendationType : Visual Experience
+---------------------------------------
+Record 5
+animeId            : A005
+title              : Death Note
+genre              : Thriller
+episodes           : 37
+rating             : 9.0
+shortReview        : Brilliant psychological battle between genius minds.
+recommendationType : Story Rich
+---------------------------------------
