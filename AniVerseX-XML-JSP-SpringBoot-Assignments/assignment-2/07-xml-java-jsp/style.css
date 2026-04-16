@@ -1,29 +1,35 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #1e293b, #334155);
+    background: linear-gradient(140deg, #0f172a, #1e293b);
     color: #f8fafc;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 30px auto;
     padding: 20px;
 }
 
 h1 {
+    margin-bottom: 8px;
     color: #fbbf24;
 }
 
 .subtitle {
-    color: #e2e8f0;
+    margin-top: 0;
+    color: #cbd5e1;
 }
 
 .card {
-    background: #0f172a;
-    border: 1px solid #475569;
-    border-radius: 8px;
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 10px;
     padding: 16px;
+}
+
+.button-row {
+    margin-top: 14px;
 }
 
 .btn {
@@ -31,32 +37,38 @@ h1 {
     background: #fb923c;
     color: #111827;
     text-decoration: none;
-    border: none;
     border-radius: 6px;
-    padding: 8px 14px;
-    margin-right: 8px;
-    cursor: pointer;
+    padding: 9px 14px;
+    font-weight: 600;
+}
+
+.btn.secondary {
+    background: #334155;
+    color: #f8fafc;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    background: #0f172a;
+    background: #1e293b;
+    border: 1px solid #334155;
 }
 
 th, td {
-    border: 1px solid #475569;
+    border: 1px solid #334155;
     padding: 10px;
+    text-align: left;
+    vertical-align: top;
 }
 
 th {
-    background: #1e293b;
+    background: #334155;
 }
 
-input, textarea, select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 12px;
+.error {
+    margin: 10px 0;
+    background: #7f1d1d;
+    border: 1px solid #b91c1c;
+    padding: 10px;
     border-radius: 6px;
-    border: 1px solid #64748b;
 }
