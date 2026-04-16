@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e293b, #334155);
+    color: #f8fafc;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #fbbf24;
+}
+
+.subtitle {
+    color: #e2e8f0;
+}
+
+.card {
+    background: #0f172a;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.btn {
+    display: inline-block;
+    background: #fb923c;
+    color: #111827;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #0f172a;
+}
+
+th, td {
+    border: 1px solid #475569;
+    padding: 10px;
+}
+
+th {
+    background: #1e293b;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #64748b;
+}
