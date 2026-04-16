@@ -1,0 +1,30 @@
+AniVerseX XPath Queries
+=======================
+
+1) All anime titles
+XPath:
+/animeCollection/anime/title
+
+2) Anime with rating > 8.5
+XPath:
+/animeCollection/anime[number(rating) > 8.5]/title
+
+3) Anime with episodes less than 100
+XPath:
+/animeCollection/anime[number(episodes) < 100]/title
+
+4) Anime by genre = Action
+XPath:
+/animeCollection/anime[genre='Action']/title
+
+5) Count of anime records
+XPath:
+count(/animeCollection/anime)
+
+6) Title and shortReview
+XPath:
+/animeCollection/anime/*[self::title or self::shortReview]
+
+7) animeId of highest rated anime
+XPath:
+/animeCollection/anime[not(rating < /animeCollection/anime/rating)]/animeId
