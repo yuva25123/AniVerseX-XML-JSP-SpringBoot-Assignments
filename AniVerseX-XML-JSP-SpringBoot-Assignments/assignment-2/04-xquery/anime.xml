@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animeCollection>
+    <anime>
+        <animeId>A001</animeId>
+        <title>Naruto</title>
+        <genre>Action</genre>
+        <episodes>220</episodes>
+        <rating>8.3</rating>
+        <shortReview>Classic ninja journey with strong character development.</shortReview>
+    </anime>
+
+    <anime>
+        <animeId>A002</animeId>
+        <title>One Piece</title>
+        <genre>Adventure</genre>
+        <episodes>1100</episodes>
+        <rating>9.0</rating>
+        <shortReview>Amazing world-building and emotional storytelling.</shortReview>
+    </anime>
+
+    <anime>
+        <animeId>A003</animeId>
+        <title>Attack on Titan</title>
+        <genre>Action</genre>
+        <episodes>89</episodes>
+        <rating>9.1</rating>
+        <shortReview>Intense story with excellent plot twists.</shortReview>
+    </anime>
+
+    <anime>
+        <animeId>A004</animeId>
+        <title>Demon Slayer</title>
+        <genre>Action</genre>
+        <episodes>55</episodes>
+        <rating>8.7</rating>
+        <shortReview>Beautiful animation and emotional scenes.</shortReview>
+    </anime>
+
+    <anime>
+        <animeId>A005</animeId>
+        <title>Death Note</title>
+        <genre>Thriller</genre>
+        <episodes>37</episodes>
+        <rating>9.0</rating>
+        <shortReview>Brilliant mind game between Light and L.</shortReview>
+    </anime>
+</animeCollection>
