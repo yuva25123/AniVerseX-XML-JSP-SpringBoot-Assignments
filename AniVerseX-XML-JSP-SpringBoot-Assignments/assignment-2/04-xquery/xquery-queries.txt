@@ -1,0 +1,38 @@
+AniVerseX XQuery Programs
+=========================
+
+1) All anime titles
+for $a in doc("anime.xml")/animeCollection/anime
+return $a/title
+
+2) Anime with rating > 8.5
+for $a in doc("anime.xml")/animeCollection/anime
+where xs:decimal($a/rating) > 8.5
+return $a/title
+
+3) Anime with episodes less than 100
+for $a in doc("anime.xml")/animeCollection/anime
+where xs:integer($a/episodes) < 100
+return $a/title
+
+4) Anime by genre = Action
+for $a in doc("anime.xml")/animeCollection/anime
+where $a/genre = "Action"
+return $a/title
+
+5) Count of anime records
+count(doc("anime.xml")/animeCollection/anime)
+
+6) Title and shortReview
+for $a in doc("anime.xml")/animeCollection/anime
+return
+<animeSummary>
+  {$a/title}
+  {$a/shortReview}
+</animeSummary>
+
+7) animeId of highest rated anime
+let $maxRating := max(doc("anime.xml")/animeCollection/anime/rating/xs:decimal(.))
+for $a in doc("anime.xml")/animeCollection/anime
+where xs:decimal($a/rating) = $maxRating
+return $a/animeId
