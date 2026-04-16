@@ -8,40 +8,72 @@ public class Anime {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @Column(name = "anime_id")
+    private Long animeId;
 
-    @Column(name = "title")
+    @Column(name = "title", nullable = false)
     private String title;
 
-    @Column(name = "genre")
+    @Column(name = "genre", nullable = false)
     private String genre;
 
-    @Column(name = "episodes")
+    @Column(name = "episodes", nullable = false)
     private Integer episodes;
 
-    @Column(name = "rating")
+    @Column(name = "rating", nullable = false)
     private Double rating;
 
-    @Column(name = "synopsis", length = 1000)
-    private String synopsis;
+    @Column(name = "short_review", length = 500)
+    private String shortReview;
 
-    public Anime() {}
+    public Anime() {
+    }
 
-    public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
+    public Long getAnimeId() {
+        return animeId;
+    }
 
-    public String getTitle() { return title; }
-    public void setTitle(String title) { this.title = title; }
+    public void setAnimeId(Long animeId) {
+        this.animeId = animeId;
+    }
 
-    public String getGenre() { return genre; }
-    public void setGenre(String genre) { this.genre = genre; }
+    public String getTitle() {
+        return title;
+    }
 
-    public Integer getEpisodes() { return episodes; }
-    public void setEpisodes(Integer episodes) { this.episodes = episodes; }
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
-    public Double getRating() { return rating; }
-    public void setRating(Double rating) { this.rating = rating; }
+    public String getGenre() {
+        return genre;
+    }
 
-    public String getSynopsis() { return synopsis; }
-    public void setSynopsis(String synopsis) { this.synopsis = synopsis; }
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    public Integer getEpisodes() {
+        return episodes;
+    }
+
+    public void setEpisodes(Integer episodes) {
+        this.episodes = episodes;
+    }
+
+    public Double getRating() {
+        return rating;
+    }
+
+    public void setRating(Double rating) {
+        this.rating = rating;
+    }
+
+    public String getShortReview() {
+        return shortReview;
+    }
+
+    public void setShortReview(String shortReview) {
+        this.shortReview = shortReview;
+    }
 }

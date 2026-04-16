@@ -9,8 +9,8 @@
     <h1>${formTitle}</h1>
 
     <form action="/anime/save" method="post" class="card">
-        <!-- Hidden id for update operation -->
-        <input type="hidden" name="id" value="${anime.id}">
+        <!-- Hidden id is used for edit update operation -->
+        <input type="hidden" name="animeId" value="${anime.animeId}">
 
         <label>Title</label>
         <input type="text" name="title" value="${anime.title}" required>
@@ -19,16 +19,18 @@
         <input type="text" name="genre" value="${anime.genre}" required>
 
         <label>Episodes</label>
-        <input type="number" name="episodes" value="${anime.episodes}" required>
+        <input type="number" name="episodes" min="1" value="${anime.episodes}" required>
 
-        <label>Rating</label>
-        <input type="number" step="0.1" name="rating" value="${anime.rating}" required>
+        <label>Rating (0 to 10)</label>
+        <input type="number" name="rating" step="0.1" min="0" max="10" value="${anime.rating}" required>
 
-        <label>Synopsis</label>
-        <textarea name="synopsis" rows="4" required>${anime.synopsis}</textarea>
+        <label>Short Review</label>
+        <textarea name="shortReview" rows="4" required>${anime.shortReview}</textarea>
 
-        <button class="btn" type="submit">Save</button>
-        <a class="btn" href="/anime">Back</a>
+        <div class="button-row">
+            <button class="btn" type="submit">Save</button>
+            <a class="btn secondary" href="/anime">Back</a>
+        </div>
     </form>
 </div>
 </body>

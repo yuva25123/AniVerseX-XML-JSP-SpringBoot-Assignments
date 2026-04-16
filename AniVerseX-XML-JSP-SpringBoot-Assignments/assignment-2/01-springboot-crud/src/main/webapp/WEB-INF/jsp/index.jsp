@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AniVerseX Home</title>
+    <title>AniVerseX - Home</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 <div class="container">
     <h1>AniVerseX</h1>
-    <p>Anime Recommendations and Reviews</p>
+    <p class="subtitle">Anime Recommendations and Reviews</p>
 
     <div class="card">
-        <a class="btn" href="/anime">Manage Anime</a>
-        <a class="btn" href="/reviews">Manage Reviews</a>
+        <p>This mini project demonstrates Spring Boot CRUD for anime details.</p>
+        <a class="btn" href="/anime">Open Anime CRUD</a>
     </div>
 </div>
 </body>
