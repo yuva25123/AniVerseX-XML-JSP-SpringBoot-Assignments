@@ -16,35 +16,40 @@ public class AnimeController {
         this.animeService = animeService;
     }
 
+    // Show all anime records.
     @GetMapping
-    public String list(Model model) {
+    public String listAnime(Model model) {
         model.addAttribute("animeList", animeService.getAllAnime());
         return "anime-list";
     }
 
+    // Open add anime form.
     @GetMapping("/new")
-    public String addForm(Model model) {
+    public String openAddForm(Model model) {
         model.addAttribute("anime", new Anime());
         model.addAttribute("formTitle", "Add Anime");
         return "anime-form";
     }
 
-    @GetMapping("/edit/{id}")
-    public String editForm(@PathVariable Long id, Model model) {
-        model.addAttribute("anime", animeService.getAnimeById(id));
+    // Open edit anime form.
+    @GetMapping("/edit/{animeId}")
+    public String openEditForm(@PathVariable Long animeId, Model model) {
+        model.addAttribute("anime", animeService.getAnimeById(animeId));
         model.addAttribute("formTitle", "Edit Anime");
         return "anime-form";
     }
 
+    // Save anime data.
     @PostMapping("/save")
-    public String save(@ModelAttribute Anime anime) {
+    public String saveAnime(@ModelAttribute Anime anime) {
         animeService.saveAnime(anime);
         return "redirect:/anime";
     }
 
-    @GetMapping("/delete/{id}")
-    public String delete(@PathVariable Long id) {
-        animeService.deleteAnime(id);
+    // Delete anime by id.
+    @GetMapping("/delete/{animeId}")
+    public String deleteAnime(@PathVariable Long animeId) {
+        animeService.deleteAnime(animeId);
         return "redirect:/anime";
     }
 }

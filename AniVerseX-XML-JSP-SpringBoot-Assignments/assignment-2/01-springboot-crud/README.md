@@ -1,9 +1,25 @@
-# 01 - Spring Boot CRUD
+# AniVerseX Spring Boot CRUD (Anime Only)
 
-This assignment contains beginner-friendly Spring Boot MVC CRUD implementation for:
-- Anime management
-- Review management
-- JSP frontend
-- MySQL schema and sample data
+This is a college-level Spring Boot MVC CRUD project for anime recommendations and reviews.
 
-Included from previous setup and ready for lab demonstration.
+## Required fields used
+- animeId
+- title
+- genre
+- episodes
+- rating
+- shortReview
+
+## Features
+- Add Anime
+- List Anime
+- Edit Anime
+- Delete Anime
+- MySQL integration
+- Sample data using `data.sql`
+
+## Run
+1. Create DB `aniversex_db` in MySQL.
+2. Update MySQL username/password in `application.properties`.
+3. Run `mvn spring-boot:run`.
+4. Open `http://localhost:8080/`.

@@ -13,6 +13,7 @@
     <groupId>com.aniversex</groupId>
     <artifactId>aniversex-springboot-assignment</artifactId>
     <version>1.0.0</version>
+    <packaging>war</packaging>
 
     <properties>
         <java.version>17</java.version>
@@ -22,6 +23,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- Keep Tomcat as provided for WAR deployment; still works with spring-boot:run -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>

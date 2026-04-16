@@ -15,20 +15,23 @@ public class AnimeService {
         this.animeRepository = animeRepository;
     }
 
-    // Return all anime records.
+    // Get all anime records from database.
     public List<Anime> getAllAnime() {
         return animeRepository.findAll();
     }
 
-    public Anime getAnimeById(Long id) {
-        return animeRepository.findById(id).orElse(null);
+    // Get one anime by primary key.
+    public Anime getAnimeById(Long animeId) {
+        return animeRepository.findById(animeId).orElse(null);
     }
 
+    // Save new anime or update existing anime.
     public Anime saveAnime(Anime anime) {
         return animeRepository.save(anime);
     }
 
-    public void deleteAnime(Long id) {
-        animeRepository.deleteById(id);
+    // Delete anime by primary key.
+    public void deleteAnime(Long animeId) {
+        animeRepository.deleteById(animeId);
     }
 }
