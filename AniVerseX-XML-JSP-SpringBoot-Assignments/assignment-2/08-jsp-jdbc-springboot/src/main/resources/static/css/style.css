@@ -1,0 +1,94 @@
+:root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --primary: #fb923c;
+    --secondary: #334155;
+    --text: #f8fafc;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(130deg, #0f172a, #1e293b);
+    color: var(--text);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #fbbf24;
+}
+
+.subtitle {
+    color: #cbd5e1;
+}
+
+.card {
+    background: var(--card);
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.button-row {
+    margin: 12px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background: var(--primary);
+    color: #111827;
+    text-decoration: none;
+    padding: 9px 14px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn.secondary {
+    background: var(--secondary);
+    color: var(--text);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+}
+
+th, td {
+    border: 1px solid #334155;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background: #334155;
+}
+
+label {
+    display: block;
+    margin: 10px 0 6px;
+    font-weight: 600;
+}
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #64748b;
+    margin-bottom: 8px;
+}
+
+a {
+    color: #93c5fd;
+}
