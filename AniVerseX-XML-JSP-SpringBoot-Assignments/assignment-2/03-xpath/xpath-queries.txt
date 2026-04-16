@@ -1,42 +1,30 @@
-AniVerseX XPath Queries (Beginner Friendly)
-===========================================
+AniVerseX XPath Queries
+=======================
 
-Q1) Select all anime titles
+1) All anime titles
 XPath:
-/animeLibrary/anime/title
+/animeCollection/anime/title
 
-Q2) Select only Action genre anime titles
+2) Anime with rating > 8.5
 XPath:
-/animeLibrary/anime[genre='Action']/title
+/animeCollection/anime[number(rating) > 8.5]/title
 
-Q3) Select anime with rating greater than or equal to 9
+3) Anime with episodes less than 100
 XPath:
-/animeLibrary/anime[number(rating) >= 9]/title
+/animeCollection/anime[number(episodes) < 100]/title
 
-Q4) Select anime where recommended is true
+4) Anime by genre = Action
 XPath:
-/animeLibrary/anime[recommended='true']/title
+/animeCollection/anime[genre='Action']/title
 
-Q5) Select anime by studio Madhouse
+5) Count of anime records
 XPath:
-/animeLibrary/anime[studio='Madhouse']/title
+count(/animeCollection/anime)
 
-Q6) Select first anime title in the list
+6) Title and shortReview
 XPath:
-/animeLibrary/anime[1]/title
+/animeCollection/anime/*[self::title or self::shortReview]
 
-Q7) Select last anime title in the list
+7) animeId of highest rated anime
 XPath:
-/animeLibrary/anime[last()]/title
-
-Q8) Select id and title for anime with episodes less than 60
-XPath:
-/animeLibrary/anime[episodes < 60]
-
-Q9) Count total number of anime
-XPath:
-count(/animeLibrary/anime)
-
-Q10) Select title + rating for all anime sorted by document order
-XPath:
-/animeLibrary/anime/*[self::title or self::rating]
+/animeCollection/anime[not(rating < /animeCollection/anime/rating)]/animeId
