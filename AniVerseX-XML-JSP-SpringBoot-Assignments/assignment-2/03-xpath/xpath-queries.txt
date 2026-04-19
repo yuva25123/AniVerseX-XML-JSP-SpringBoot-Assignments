@@ -1,0 +1,20 @@
+1) All anime titles
+/animeCollection/anime/title/text()
+
+2) Anime with rating > 8.5
+/animeCollection/anime[number(rating) > 8.5]/title/text()
+
+3) Anime with episodes less than 100
+/animeCollection/anime[number(episodes) < 100]/title/text()
+
+4) Anime by genre = Action
+/animeCollection/anime[genre='Action']/title/text()
+
+5) Count of anime records
+count(/animeCollection/anime)
+
+6) Title and shortReview
+/animeCollection/anime/title | /animeCollection/anime/shortReview
+
+7) animeId of highest rated anime
+/animeCollection/anime[not(rating < /animeCollection/anime/rating)]/animeId/text()

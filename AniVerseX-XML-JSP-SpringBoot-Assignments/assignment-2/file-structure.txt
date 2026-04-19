@@ -1,0 +1,352 @@
+Folder PATH listing for volume Windows
+Volume serial number is 8829-4D92
+C:\USERS\YUVA DHARSHINI . C\ONEDRIVE\DOCUMENTS\PLAYGROUND\ANIVERSEX-XML-JSP-SPRINGBOOT-ASSIGNMENTS\ASSIGNMENT-2
+|   Assignment-2_WebProgramming_10-15Pages.md
+|   Assignment-2_WebProgramming_3Questions_Printable.md
+|   file-structure.txt
+|   README.md
+|   
++---.github
+|   \---java-upgrade
+|       |   .gitignore
+|       |   
+|       \---hooks
+|           \---scripts
+|                   recordToolUse.ps1
+|                   recordToolUse.sh
+|                   
++---.vscode
+|       settings.json
+|       
++---01-springboot-crud
+|   |   .gitignore
+|   |   pom.xml
+|   |   README.md
+|   |   
+|   +---.github
+|   |   \---java-upgrade
+|   |       |   .gitignore
+|   |       |   
+|   |       +---20260416131425
+|   |       |   |   plan.md
+|   |       |   |   progress.md
+|   |       |   |   summary.md
+|   |       |   |   
+|   |       |   \---logs
+|   |       |           0.log
+|   |       |           
+|   |       \---20260416135827
+|   |           |   plan.md
+|   |           |   
+|   |           \---logs
+|   |                   0.log
+|   |                   
+|   +---src
+|   |   \---main
+|   |       +---java
+|   |       |   \---com
+|   |       |       \---aniversex
+|   |       |           |   AniVerseXApplication.java
+|   |       |           |   
+|   |       |           +---controller
+|   |       |           |       AnimeController.java
+|   |       |           |       HomeController.java
+|   |       |           |       ReviewController.java
+|   |       |           |       
+|   |       |           +---model
+|   |       |           |       Anime.java
+|   |       |           |       Review.java
+|   |       |           |       
+|   |       |           +---repository
+|   |       |           |       AnimeRepository.java
+|   |       |           |       ReviewRepository.java
+|   |       |           |       
+|   |       |           \---service
+|   |       |                   AnimeService.java
+|   |       |                   ReviewService.java
+|   |       |                   
+|   |       +---resources
+|   |       |   |   application.properties
+|   |       |   |   data.sql
+|   |       |   |   schema.sql
+|   |       |   |   
+|   |       |   \---static
+|   |       |       +---css
+|   |       |       |       style.css
+|   |       |       |       
+|   |       |       \---xml
+|   |       |               anime-data.xml
+|   |       |               
+|   |       \---webapp
+|   |           \---WEB-INF
+|   |               \---jsp
+|   |                       anime-form.jsp
+|   |                       anime-list.jsp
+|   |                       index.jsp
+|   |                       review-form.jsp
+|   |                       review-list.jsp
+|   |                       
+|   \---target
+|       |   aniversex-springboot-assignment-1.0.0.war
+|       |   aniversex-springboot-assignment-1.0.0.war.original
+|       |   
+|       +---aniversex-springboot-assignment-1.0.0
+|       |   +---META-INF
+|       |   \---WEB-INF
+|       |       +---classes
+|       |       |   |   application.properties
+|       |       |   |   data.sql
+|       |       |   |   schema.sql
+|       |       |   |   
+|       |       |   +---com
+|       |       |   |   \---aniversex
+|       |       |   |       |   AniVerseXApplication.class
+|       |       |   |       |   
+|       |       |   |       +---controller
+|       |       |   |       |       AnimeController.class
+|       |       |   |       |       HomeController.class
+|       |       |   |       |       
+|       |       |   |       +---model
+|       |       |   |       |       Anime.class
+|       |       |   |       |       
+|       |       |   |       +---repository
+|       |       |   |       |       AnimeRepository.class
+|       |       |   |       |       
+|       |       |   |       \---service
+|       |       |   |               AnimeService.class
+|       |       |   |               
+|       |       |   \---static
+|       |       |       +---css
+|       |       |       |       style.css
+|       |       |       |       
+|       |       |       \---xml
+|       |       |               anime-data.xml
+|       |       |               
+|       |       +---jsp
+|       |       |       anime-form.jsp
+|       |       |       anime-list.jsp
+|       |       |       index.jsp
+|       |       |       
+|       |       \---lib
+|       |               angus-activation-2.0.2.jar
+|       |               antlr4-runtime-4.13.0.jar
+|       |               aspectjweaver-1.9.22.1.jar
+|       |               byte-buddy-1.14.18.jar
+|       |               classmate-1.7.0.jar
+|       |               ecj-3.33.0.jar
+|       |               hibernate-commons-annotations-6.0.6.Final.jar
+|       |               hibernate-core-6.5.2.Final.jar
+|       |               HikariCP-5.1.0.jar
+|       |               istack-commons-runtime-4.1.2.jar
+|       |               jackson-annotations-2.17.2.jar
+|       |               jackson-core-2.17.2.jar
+|       |               jackson-databind-2.17.2.jar
+|       |               jackson-datatype-jdk8-2.17.2.jar
+|       |               jackson-datatype-jsr310-2.17.2.jar
+|       |               jackson-module-parameter-names-2.17.2.jar
+|       |               jakarta.activation-api-2.1.3.jar
+|       |               jakarta.annotation-api-2.1.1.jar
+|       |               jakarta.el-api-5.0.0.jar
+|       |               jakarta.inject-api-2.0.1.jar
+|       |               jakarta.persistence-api-3.1.0.jar
+|       |               jakarta.servlet-api-6.0.0.jar
+|       |               jakarta.servlet.jsp.jstl-3.0.1.jar
+|       |               jakarta.servlet.jsp.jstl-api-3.0.0.jar
+|       |               jakarta.transaction-api-2.0.1.jar
+|       |               jakarta.xml.bind-api-4.0.2.jar
+|       |               jandex-3.1.2.jar
+|       |               jaxb-core-4.0.5.jar
+|       |               jaxb-runtime-4.0.5.jar
+|       |               jboss-logging-3.5.3.Final.jar
+|       |               jul-to-slf4j-2.0.13.jar
+|       |               log4j-api-2.23.1.jar
+|       |               log4j-to-slf4j-2.23.1.jar
+|       |               logback-classic-1.5.6.jar
+|       |               logback-core-1.5.6.jar
+|       |               micrometer-commons-1.13.2.jar
+|       |               micrometer-observation-1.13.2.jar
+|       |               mysql-connector-j-8.3.0.jar
+|       |               slf4j-api-2.0.13.jar
+|       |               snakeyaml-2.2.jar
+|       |               spring-aop-6.1.11.jar
+|       |               spring-aspects-6.1.11.jar
+|       |               spring-beans-6.1.11.jar
+|       |               spring-boot-3.3.2.jar
+|       |               spring-boot-autoconfigure-3.3.2.jar
+|       |               spring-boot-starter-3.3.2.jar
+|       |               spring-boot-starter-aop-3.3.2.jar
+|       |               spring-boot-starter-data-jpa-3.3.2.jar
+|       |               spring-boot-starter-jdbc-3.3.2.jar
+|       |               spring-boot-starter-json-3.3.2.jar
+|       |               spring-boot-starter-logging-3.3.2.jar
+|       |               spring-boot-starter-web-3.3.2.jar
+|       |               spring-context-6.1.11.jar
+|       |               spring-core-6.1.11.jar
+|       |               spring-data-commons-3.3.2.jar
+|       |               spring-data-jpa-3.3.2.jar
+|       |               spring-expression-6.1.11.jar
+|       |               spring-jcl-6.1.11.jar
+|       |               spring-jdbc-6.1.11.jar
+|       |               spring-orm-6.1.11.jar
+|       |               spring-tx-6.1.11.jar
+|       |               spring-web-6.1.11.jar
+|       |               spring-webmvc-6.1.11.jar
+|       |               tomcat-embed-core-10.1.26.jar
+|       |               tomcat-embed-el-10.1.26.jar
+|       |               tomcat-embed-jasper-10.1.26.jar
+|       |               txw2-4.0.5.jar
+|       |               
+|       +---classes
+|       |   |   application.properties
+|       |   |   data.sql
+|       |   |   schema.sql
+|       |   |   
+|       |   +---com
+|       |   |   \---aniversex
+|       |   |       |   AniVerseXApplication.class
+|       |   |       |   
+|       |   |       +---controller
+|       |   |       |       AnimeController.class
+|       |   |       |       HomeController.class
+|       |   |       |       ReviewController.class
+|       |   |       |       
+|       |   |       +---model
+|       |   |       |       Anime.class
+|       |   |       |       Review.class
+|       |   |       |       
+|       |   |       +---repository
+|       |   |       |       AnimeRepository.class
+|       |   |       |       ReviewRepository.class
+|       |   |       |       
+|       |   |       \---service
+|       |   |               AnimeService.class
+|       |   |               ReviewService.class
+|       |   |               
+|       |   \---static
+|       |       +---css
+|       |       |       style.css
+|       |       |       
+|       |       \---xml
+|       |               anime-data.xml
+|       |               
+|       +---generated-sources
+|       |   \---annotations
+|       +---maven-archiver
+|       |       pom.properties
+|       |       
+|       +---maven-status
+|       |   \---maven-compiler-plugin
+|       |       \---compile
+|       |           \---default-compile
+|       |                   createdFiles.lst
+|       |                   inputFiles.lst
+|       |                   
+|       \---test-classes
++---02-xml-dtd
+|       anime-catalog.xml
+|       README.md
+|       xml-viewer.html
+|       
++---03-xpath
+|       README.md
+|       
++---04-xquery
+|       README.md
+|       
++---05-xml-schema
+|       anime-data.xml
+|       README.md
+|       
++---06-xml-parser
+|   |   README.md
+|   |   
+|   \---out
+|           AniVerseXmlDomParser.class
+|           
++---07-xml-java-jsp
+|   |   anime-list.jsp
+|   |   index.jsp
+|   |   README.md
+|   |   review-form.jsp
+|   |   style.css
+|   |   
+|   \---WEB-INF
+|       |   web.xml
+|       |   
+|       \---classes
+\---08-jsp-jdbc-springboot
+    |   pom.xml
+    |   README.md
+    |   
+    +---src
+    |   \---main
+    |       +---java
+    |       |   \---com
+    |       |       \---aniversex
+    |       |           \---jspjdbc
+    |       |               |   AniVerseXJspJdbcApplication.java
+    |       |               |   
+    |       |               +---controller
+    |       |               |       AnimeController.java
+    |       |               |       
+    |       |               +---dao
+    |       |               |       AnimeDao.java
+    |       |               |       
+    |       |               \---model
+    |       |                       Anime.java
+    |       |                       
+    |       +---resources
+    |       |   |   application.properties
+    |       |   |   data.sql
+    |       |   |   schema.sql
+    |       |   |   
+    |       |   \---static
+    |       |       \---css
+    |       |               style.css
+    |       |               
+    |       \---webapp
+    |           \---WEB-INF
+    |               \---jsp
+    |                       anime-form.jsp
+    |                       anime-list.jsp
+    |                       index.jsp
+    |                       
+    \---target
+        |   aniversex-jsp-jdbc-springboot-1.0.0.jar
+        |   aniversex-jsp-jdbc-springboot-1.0.0.jar.original
+        |   
+        +---classes
+        |   |   application.properties
+        |   |   data.sql
+        |   |   schema.sql
+        |   |   
+        |   +---com
+        |   |   \---aniversex
+        |   |       \---jspjdbc
+        |   |           |   AniVerseXJspJdbcApplication.class
+        |   |           |   
+        |   |           +---controller
+        |   |           |       AnimeController.class
+        |   |           |       
+        |   |           +---dao
+        |   |           |       AnimeDao.class
+        |   |           |       
+        |   |           \---model
+        |   |                   Anime.class
+        |   |                   
+        |   \---static
+        |       \---css
+        |               style.css
+        |               
+        +---generated-sources
+        |   \---annotations
+        +---maven-archiver
+        |       pom.properties
+        |       
+        \---maven-status
+            \---maven-compiler-plugin
+                \---compile
+                    \---default-compile
+                            createdFiles.lst
+                            inputFiles.lst
+                            

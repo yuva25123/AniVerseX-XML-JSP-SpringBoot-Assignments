@@ -1,0 +1,8 @@
+﻿<!ELEMENT animeCatalog (anime+)>
+<!ELEMENT anime (id, title, genre, episodes, rating, review)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT episodes (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT review (#PCDATA)>

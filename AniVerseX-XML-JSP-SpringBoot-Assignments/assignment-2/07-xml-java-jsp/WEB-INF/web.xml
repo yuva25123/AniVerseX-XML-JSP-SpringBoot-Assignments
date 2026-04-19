@@ -6,6 +6,16 @@
 
     <display-name>AniVerseX JSP Assignment</display-name>
 
+    <servlet>
+        <servlet-name>AnimeXmlReaderServlet</servlet-name>
+        <servlet-class>com.aniversex.xmljsp.AnimeXmlReaderServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AnimeXmlReaderServlet</servlet-name>
+        <url-pattern>/anime-list</url-pattern>
+    </servlet-mapping>
+
     <!-- Welcome page for this JSP assignment -->
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>

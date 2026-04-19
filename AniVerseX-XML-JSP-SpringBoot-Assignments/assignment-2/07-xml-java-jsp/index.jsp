@@ -6,11 +6,11 @@
 </head>
 <body>
 <div class="container">
-    <h1>AniVerseX JSP Assignment</h1>
+    <h1>AniVerseX XML + Java + JSP</h1>
     <p class="subtitle">Anime Recommendations and Reviews</p>
     <div class="card">
-        <a class="btn" href="anime-list.jsp">View Anime List</a>
-        <a class="btn" href="review-form.jsp">Write Review</a>
+        <p>This page reads data from <code>anime.xml</code> using a Java Servlet and displays it in JSP.</p>
+        <a class="btn" href="anime-list">Load Anime XML Data</a>
     </div>
 </div>
 </body>

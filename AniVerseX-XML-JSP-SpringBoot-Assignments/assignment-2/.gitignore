@@ -1,0 +1,14 @@
+# IDE/settings
+.vscode/
+
+# Java build outputs
+**/target/
+06-xml-parser/out/
+07-xml-java-jsp/WEB-INF/classes/
+
+# Local crash/temp files
+hs_err_pid*.log
+
+# Validation scratch files
+02-xml-dtd/anime-invalid.xml
+05-xml-schema/anime-invalid.xml

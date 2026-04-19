@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<animeCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xsi:noNamespaceSchemaLocation="anime.xsd">
+<animeCollection>
     <anime>
         <animeId>A001</animeId>
         <title>Naruto</title>
@@ -8,7 +7,6 @@
         <episodes>220</episodes>
         <rating>8.3</rating>
         <shortReview>Classic ninja journey with strong character growth.</shortReview>
-        <recommendationType>Beginner Friendly</recommendationType>
     </anime>
     <anime>
         <animeId>A002</animeId>
@@ -16,8 +14,7 @@
         <genre>Adventure</genre>
         <episodes>1100</episodes>
         <rating>9.0</rating>
-        <shortReview>Long-running pirate adventure with deep world building.</shortReview>
-        <recommendationType>Binge Watch</recommendationType>
+        <shortReview>A long pirate adventure with great world-building.</shortReview>
     </anime>
     <anime>
         <animeId>A003</animeId>
@@ -25,8 +22,7 @@
         <genre>Action</genre>
         <episodes>89</episodes>
         <rating>9.1</rating>
-        <shortReview>Strong twists, suspense, and emotional impact.</shortReview>
-        <recommendationType>Top Rated</recommendationType>
+        <shortReview>Intense plot with major twists and strong storytelling.</shortReview>
     </anime>
     <anime>
         <animeId>A004</animeId>
@@ -34,8 +30,7 @@
         <genre>Action</genre>
         <episodes>55</episodes>
         <rating>8.7</rating>
-        <shortReview>Beautiful animation with a heartfelt story.</shortReview>
-        <recommendationType>Popular Choice</recommendationType>
+        <shortReview>Beautiful animation and emotional character moments.</shortReview>
     </anime>
     <anime>
         <animeId>A005</animeId>
@@ -43,7 +38,6 @@
         <genre>Thriller</genre>
         <episodes>37</episodes>
         <rating>8.9</rating>
-        <shortReview>A psychological duel between brilliant minds.</shortReview>
-        <recommendationType>Must Watch</recommendationType>
+        <shortReview>A smart psychological battle between Light and L.</shortReview>
     </anime>
 </animeCollection>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<animeCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xsi:noNamespaceSchemaLocation="anime.xsd">
+<animeCollection>
     <anime>
         <animeId>A001</animeId>
         <title>Naruto</title>
@@ -16,7 +15,7 @@
         <genre>Adventure</genre>
         <episodes>1100</episodes>
         <rating>9.0</rating>
-        <shortReview>Long-running pirate adventure with deep world building.</shortReview>
+        <shortReview>A long pirate adventure with great world-building.</shortReview>
         <recommendationType>Binge Watch</recommendationType>
     </anime>
     <anime>
@@ -25,7 +24,7 @@
         <genre>Action</genre>
         <episodes>89</episodes>
         <rating>9.1</rating>
-        <shortReview>Strong twists, suspense, and emotional impact.</shortReview>
+        <shortReview>Intense plot with major twists and strong storytelling.</shortReview>
         <recommendationType>Top Rated</recommendationType>
     </anime>
     <anime>
@@ -34,7 +33,7 @@
         <genre>Action</genre>
         <episodes>55</episodes>
         <rating>8.7</rating>
-        <shortReview>Beautiful animation with a heartfelt story.</shortReview>
+        <shortReview>Beautiful animation and emotional character moments.</shortReview>
         <recommendationType>Popular Choice</recommendationType>
     </anime>
     <anime>
@@ -43,7 +42,7 @@
         <genre>Thriller</genre>
         <episodes>37</episodes>
         <rating>8.9</rating>
-        <shortReview>A psychological duel between brilliant minds.</shortReview>
+        <shortReview>A smart psychological battle between Light and L.</shortReview>
         <recommendationType>Must Watch</recommendationType>
     </anime>
 </animeCollection>
