@@ -1,0 +1,11 @@
+<!ELEMENT animeCollection (anime+)>
+
+<!ELEMENT anime (animeId, title, genre, episodes, rating, shortReview, recommendationType)>
+
+<!ELEMENT animeId (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT episodes (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT shortReview (#PCDATA)>
+<!ELEMENT recommendationType (#PCDATA)>

@@ -1,0 +1,103 @@
+/* Basic anime-inspired theme using warm dark colors */
+:root {
+    --bg: #111827;
+    --card: #1f2937;
+    --primary: #f97316;
+    --secondary: #334155;
+    --text: #f8fafc;
+    --muted: #cbd5e1;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: linear-gradient(120deg, #0f172a, #1e293b);
+    color: var(--text);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #fde68a;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    color: var(--muted);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: var(--card);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #374151;
+}
+
+.button-row {
+    margin: 15px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background: var(--primary);
+    color: #111827;
+    text-decoration: none;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn.secondary {
+    background: var(--secondary);
+    color: var(--text);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #334155;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background: #334155;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #475569;
+    background: #0f172a;
+    color: #f8fafc;
+    box-sizing: border-box;
+}
+
+a {
+    color: #93c5fd;
+}

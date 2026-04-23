@@ -1,0 +1,4 @@
+# Ignore Maven and IDE generated files
+/target/
+/.idea/
+*.iml
